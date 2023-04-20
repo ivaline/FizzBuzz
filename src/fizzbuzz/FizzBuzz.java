@@ -2,8 +2,8 @@ package fizzbuzz;
 
 public class FizzBuzz {
 	
-	static int[] valeursSpeciales = {3, 5};
-	static String[] motsSpeciaux = {"fizz", "buzz"};
+	private static int[] valeursSpeciales = {3, 5};
+	private static String[] motsSpeciaux = {"fizz", "buzz"};
 	
 	public static String fizzbuzz(int entree) {
 		StringBuilder resultat = new StringBuilder();
